@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poneer Bank</title>
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container mt-3 w-75">
+
+        <div class="log-in-area">
+            <h1 class=" text-center title pt-3">Welcome to the pioneer bank</h1>
+            <div class="submit-area pt-2">
+                <h4>Login</h4>
+
+                <input  type="text" class="form-control mb-3 mailInput" placeholder="Enter your email">
+
+                <input type="password" class="form-control mb-3 passwordInput" placeholder="Enter your password">
+
+                <button class="btn btn-success w-25">Enter</button>
+            </div>
+        </div>
+    </div>
+        
+    <!-- Transaction Area -->
+
+    <div class="transaction-area">
+        <h1 class="heading">Transaction Area</h1>
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="deposit">
+                    <h5 >Deposit</h5>
+                    <h2 >$ <samp id="depositMoney">00</samp></h2>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 ">
+                <div class="withdrow">
+                    <h5 >Withdrow</h5>
+                    <h2 >$ <samp id="withdrowMoney">00</samp></h2>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="balance">
+                    <h5>Balance</h5>
+                    <h2>$ <samp id="balanceMoney">1500</samp></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit-areas">
+                <h4>Deposit</h4>
+                <input id="depositInput" class="form-control" type="text" placeholder="$ Enter amount">
+                <button id="depositButton" class="btn mt-2 btn-success">Deposit</button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="submit-areas">
+                <h4>Withdrow</h4>
+                <input id="withdrowInput" class="form-control" type="text" placeholder="$ Enter amount">
+                <button id="withdrowButton" class="btn mt-2 btn-danger">Withdrow</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    
+    
+    <!-- Boostrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- Boostrap CDN -->
+    <script src="index.js"></script>
+</body>
+</html>
